@@ -1,0 +1,13 @@
+class Person:
+    def __init__(self, name, age, gender):
+        pass
+        self.name = name
+        self.age = age
+        self.gender = gender
+    def display(self):
+        print("Name:",self.name)
+        print("Age:",self.age)
+        print("Gender:",self.gender)
+print("Introduce:")
+Person1 = Person("Rotondwa", 23, "Female")
+Person1.display()
